@@ -1,0 +1,48 @@
+{
+  "status": "ENVIRONMENT_READY",
+  "timestamp_utc": "2026-07-29T09:35:04Z",
+  "batch_name": "PANTHÉON 20x",
+  "orchestrator": "RATISS V9 Aeon Prime UniversalBridge",
+  "engineer": "Ingénieur DevOps Quantique RATISS",
+  "qpu_resources": {
+    "ibm_brisbane": {
+      "status": "ONLINE",
+      "max_shots_per_circuit": 10000,
+      "max_circuits_per_job": 300,
+      "queue_depth": 2,
+      "estimated_wait_seconds": 14.2
+    },
+    "quandela_ascella": {
+      "status": "ONLINE",
+      "cloud_quota_runs": 20,
+      "timeout_limit_seconds": 300,
+      "detector_dark_count_hz": 10
+    }
+  },
+  "auto_calibration_strategy": {
+    "default_shots": 10000,
+    "fallback_shots": 8000,
+    "batch_splitting_enabled": true,
+    "sub_batch_size": 10,
+    "current_allocation": {
+      "shots_per_execution": 10000,
+      "lot_count": 1
+    }
+  },
+  "security_and_permissions": {
+    "output_directory": "./ecoute/pantheon_20x/",
+    "write_permission": "GRANTED",
+    "token_refresh_status": "VALIDATED"
+  },
+  "preflight_dry_run": {
+    "backend_simulators": ["sim:exqalibur", "qiskit_aer"],
+    "test_circuits_executed": 2,
+    "dry_run_success": true,
+    "log_file": "./ecoute/pantheon_20x/preflight_check.log"
+  },
+  "recommendations": [
+    "Lancer le batch PANTHÉON 20x sans restriction d'allocation.",
+    "Conserver le paramètre nominal de 10 000 shots par exécution.",
+    "Activer le monitoring dynamique de file d'attente pour déclencher le fallback 8k shots en cas de pic de trafic QPU."
+  ]
+}

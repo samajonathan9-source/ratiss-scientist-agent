@@ -1,0 +1,6 @@
+{
+    "token": "TON_JETON_IBM_ICI",
+    "simulator": "ibmq_qasm_simulator",
+    "qpu": "ibm_brisbane",
+    "default_platform": "ibmq_qasm_simulator"
+}

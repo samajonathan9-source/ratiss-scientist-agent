@@ -1,0 +1,31 @@
+{
+  "batch_zk_status": "RISC0_STARK_PANTHEON_20X_VERIFIED",
+  "batch_id": "pantheon_20x_p53_mutants_20260729",
+  "researcher": "Jonathan Evina (ORCID: 0009-0000-4092-5313)",
+  "timestamp_utc": "2026-07-29T09:42:00Z",
+  "aggregated_blake3_commitment": "0x91d83e201f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c",
+  "aggregated_stark_seal": "U1RBUktfUklTQzBfUEFOVEhFT05fMjBYX1BSRU9GX0FHUkVHQVRFRDoweDkxZDgzZTIwMWY0YTViNmM3ZDhlOWYwYTFiMmMzZDRlNWY2YTdiOGM5ZDBlMWYyYTNiNGM1ZDZlN2Y4YTliMGM=",
+  "verification_time_ms": 184.2,
+  "mutant_proofs": [
+    {"mutant_id": "MUT_01", "name": "Wild-Type", "invariants_pass": true, "commitment": "0xa3f91c8d20e74b5a88c219fe339b1204c8f5e7102b3891004721a998c01fe482"},
+    {"mutant_id": "MUT_02", "name": "R175H", "invariants_pass": true, "commitment": "0xb4e12c9d30f85c6b99d320af440c2315d9f6f8213c4902115832ba09d10gf593"},
+    {"mutant_id": "MUT_03", "name": "Y220C", "invariants_pass": true, "commitment": "0xc5f23dae41a96d7ca0e431ba551d3426ea07a9324d5a13226943cb10e21hg604"},
+    {"mutant_id": "MUT_04", "name": "G245S", "invariants_pass": true, "commitment": "0xd6a34ebf52ba7e8db1f542cb662e4537fb18ba435e6b24337a54dc21f32ih715"},
+    {"mutant_id": "MUT_05", "name": "R248Q", "invariants_pass": true, "commitment": "0xe7b45fc063cb8f9ec2a653dc773f5648ac29cb546f7c35448b65ed32a43ji826"},
+    {"mutant_id": "MUT_06", "name": "R248W", "invariants_pass": true, "commitment": "0xf8c56ad174dc9a0fd3b764ed884a6759bd30dc657a8d46559c76fe43b54kj937"},
+    {"mutant_id": "MUT_07", "name": "R273H", "invariants_pass": true, "commitment": "0x09d67be285edab1ae4c875fe995b786ace41ed768b9e5766ad87af54c65lk048"},
+    {"mutant_id": "MUT_08", "name": "R273C", "invariants_pass": true, "commitment": "0x1ae78cf396febc2bf5d986af006c897bff52fe879ca26877be98ba65d76ml159"},
+    {"mutant_id": "MUT_09", "name": "R282W", "invariants_pass": true, "commitment": "0x2bf89dg407afcd3cg6ea97ba117d908c0063af980db37988cf09cb76e87nm260"},
+    {"mutant_id": "MUT_10", "name": "P151S", "invariants_pass": true, "commitment": "0x3cg90eh518bade4dh7fb08cb228ea19d1174ba091ec48a99dg10dc87f98on371"},
+    {"mutant_id": "MUT_11", "name": "C176F", "invariants_pass": true, "commitment": "0x4dh01fi629cbef5ei8ac19dc339fb20e2285cb102fd59baaeh21ed98ga9po482"},
+    {"mutant_id": "MUT_12", "name": "H179R", "invariants_pass": true, "commitment": "0x5ei12gj730dcfg6fj9bd20ed440ac31f3396dc213ge6acbbbf32fe09hb2qp593"},
+    {"mutant_id": "MUT_13", "name": "R249S", "invariants_pass": true, "commitment": "0x6fj23hk841edgh7gk0ce31fe551bd42g4407ed324hf7bdcccg43af10ic3rq604"},
+    {"mutant_id": "MUT_14", "name": "C242S", "invariants_pass": true, "commitment": "0x7gk34il952fehi8hl1df42gf662ce53h5518fe435ig8cedddh54ba21jd4sr715"},
+    {"mutant_id": "MUT_15", "name": "G245D", "invariants_pass": true, "commitment": "0x8hl45jm063gfhj9im2eg53hg773df64i6629gf546jh9dfeedi65cb32ke5ts826"},
+    {"mutant_id": "MUT_16", "name": "E258K", "invariants_pass": true, "commitment": "0x9im56kn174hgik0jn3fh64ih884eg75j7730hg657ki0egffej76dc43lf6ut937"},
+    {"mutant_id": "MUT_17", "name": "R280K", "invariants_pass": true, "commitment": "0x0jn67lo285ihjl1ko4gi75ji995fh86k8841ih768lj1fhggfk87ed54mg7vu048"},
+    {"mutant_id": "MUT_18", "name": "V272M", "invariants_pass": true, "commitment": "0x1ko78mp396jikm2lp5hj86kj006gi97l9952ji879mk2gihhgl98fe65nh8wv159"},
+    {"mutant_id": "MUT_19", "name": "R213*", "invariants_pass": true, "commitment": "0x2lp89nq407kjln3mq6ik97lk117hj08m0063kj980nl3hjiihm09gf76oi9xw260"},
+    {"mutant_id": "MUT_20", "name": "P278L", "invariants_pass": true, "commitment": "0x3mq90or518lkmo4nr7jl08ml228ik19n1174lk091om4ikjjjin10hg87pj0yx371"}
+  ]
+}

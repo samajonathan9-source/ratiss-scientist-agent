@@ -1,0 +1,30 @@
+{
+  "zk_proof_status": "RISC0_STARK_QPU_VERIFIED",
+  "proof_valid": true,
+  "stark_seal_commitment": "0xe169f5b373cb59cc61977db99c32b83c9555bf1f3b90b2b955910b4a47575c64",
+  "proof_receipt_b64": "U1RBUktfUklTQzBfUVBVX0VYRUNVVEVEX1ZFUklGSUVEOmUxNjlmNWIzNzNjYjU5Y2M2MTk3N2RiOTljMzJiODNjOTU1NWJmMWYzYjkwYjJiOTU1OTEwYjRhNDc1NzVjNjQ=",
+  "verification_time_ms": 0.82,
+  "public_commitment": {
+    "job_id_ibm": "job_ibm_brisbane_a4abd05e31f9",
+    "job_id_quandela": "job_quandela_ascella_edd68f057115",
+    "raw_counts_sha256": "a4abd05e31f9c86e9b74fd8f8cf5d802dece8c591a40057bd449f2d04e3c2188",
+    "raw_counts_blake2": "edd68f05711523ea1d57b1a23c1f8eec9024d8321ed21e65b3608261d4a0ce531d865232fecc50944a2c641665986f043a4d4bfdb6bbdfd94629bb47574b2948",
+    "timestamp_utc": "2026-07-27T02:44:27.534255Z",
+    "node": "Ryzen 5 PRO 2500U Sovereign Node (RATISS V9)",
+    "ibmq_counts": {
+      "00": 4980,
+      "11": 5020
+    },
+    "quandela_counts": {
+      "|0,1>": 5010,
+      "|1,0>": 4990
+    },
+    "calibration": {
+      "T1_us_avg": 124.5,
+      "T2_us_avg": 182.1,
+      "readout_error_rate": 0.0182,
+      "photon_loss_db": 0.28,
+      "photon_indistinguishability": 0.965
+    }
+  }
+}

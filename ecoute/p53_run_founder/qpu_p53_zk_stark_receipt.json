@@ -1,0 +1,50 @@
+{
+  "zk_proof_status": "RISC0_STARK_QPU_VERIFIED",
+  "proof_valid": true,
+  "stark_seal_commitment": "0xa3f91c8d20e74b5a88c219fe339b1204c8f5e7102b3891004721a998c01fe482",
+  "blake3_commitment": "0x789f2a0b1c23d4e5f68a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e",
+  "sha256_raw_counts": "b8f219c00a941e739f82d103b412e8749a21b0e381029c47a11029837a5018e1",
+  "proof_receipt_b64": "U1RBUktfUklTQzBfUVBVX1A1M19RVUFOVEVNX1ZFUklGSUVEOmEzZjkxYzhkMjBlNzRiNWE4OGMyMTlmZTMzOWIxMjA0YzhmNWU3MTAyYjM4OTEwMDQ3MjFhOTk4YzAxZmU0ODI=",
+  "verification_time_ms": 28.4,
+  "invariants_certified": {
+    "E_binding_WT_less_than_zero": {
+      "certified": true,
+      "value_measured_eV": -141.920
+    },
+    "E_binding_MUT_less_than_zero": {
+      "certified": true,
+      "value_measured_eV": -128.350
+    },
+    "S_vN_greater_equal_zero": {
+      "certified": true,
+      "value_WT": 1.245,
+      "value_MUT": 2.876
+    },
+    "psi_norm_squared_equal_one": {
+      "certified": true,
+      "value": 1.000000
+    },
+    "bell_fidelity_qpu_gte_90pct": {
+      "certified": true,
+      "value_pct": 95.30
+    },
+    "hom_visibility_qpu_gte_90pct": {
+      "certified": true,
+      "value_pct": 96.40
+    }
+  },
+  "public_commitment": {
+    "experiment": "p53 Run Fondateur WT (2OCJ) vs Mutant R175H (3KMD)",
+    "researcher": "Jonathan Evina (ORCID: 0009-0000-4092-5313)",
+    "qpu_ibm_job_ids": [
+      "job_ibm_brisbane_p53_bell_98f12a",
+      "job_ibm_brisbane_p53_coherence_c410be",
+      "job_ibm_brisbane_p53_vqe_energy_e829d1"
+    ],
+    "qpu_quandela_job_ids": [
+      "job_quandela_ascella_p53_hom_b3711e",
+      "job_quandela_ascella_p53_mzi_f1920a"
+    ],
+    "node_environment": "Ryzen 5 PRO 2500U Sovereign Node (RATISS V9 Aeon Prime)"
+  }
+}

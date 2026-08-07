@@ -1,0 +1,11 @@
+{
+  "name": "RATISS_MINI_CERVEAU",
+  "version": "1.0.0",
+  "author": "JohnKing0",
+  "purpose": "Portable lightweight RATISS engine for committee evaluation.",
+  "core_components": [
+    "TopologyCompressor_Lite",
+    "TopoZK_CPU_Simulator",
+    "JohnKing0_Identity_Matrix"
+  ]
+}

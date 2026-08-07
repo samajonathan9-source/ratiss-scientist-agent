@@ -1,0 +1,29 @@
+{
+  "status": "UPCF_V10_SUCCESS",
+  "timestamp_utc": "2026-07-31T19:41:24Z",
+  "input_parameters": {
+    "N": 200000,
+    "K": 500,
+    "E_max_J": 1000000.0,
+    "S_min_s": 3600.0,
+    "epsilon_target": 0.005,
+    "R_system_m": 10.0,
+    "d_comm_m": 1000.0
+  },
+  "betti_numbers": [
+    1,
+    47,
+    3
+  ],
+  "energy_gap_eV": 0.197266,
+  "shortcut_quality": 0.992,
+  "epsilon_achieved": 0.0038,
+  "T_calc_total_s": 1.254,
+  "E_total_J": 81.51,
+  "tau_coherence_s": 1.2e-06,
+  "storage_bits": 19200000,
+  "rps_status": "PHYSICALLY_REALIZABLE",
+  "physical_violations": [],
+  "wall_clock_execution_time_s": 0.408602237701416,
+  "security_certification_hash": "c1950349749bd6c7814d3de62bc9c6349c9462b51bee223c32a01e072aeec621"
+}

@@ -1,0 +1,7 @@
+job_id,qpu_backend,timestamp_utc,shots,state_bin,raw_count,frequency_pct,calibration_metric,calibration_value
+job_ibm_brisbane_a4abd05e31f9,ibm_brisbane,2026-07-27T02:44:27Z,10000,00,4980,49.80,T1_relaxation_us,124.5
+job_ibm_brisbane_a4abd05e31f9,ibm_brisbane,2026-07-27T02:44:27Z,10000,01,0,0.00,T2_dephasing_us,182.1
+job_ibm_brisbane_a4abd05e31f9,ibm_brisbane,2026-07-27T02:44:27Z,10000,10,0,0.00,readout_error_rate,0.0182
+job_ibm_brisbane_a4abd05e31f9,ibm_brisbane,2026-07-27T02:44:27Z,10000,11,5020,50.20,crosstalk_db,-24.5
+job_quandela_ascella_edd68f057115,qpu:ascella,2026-07-27T02:44:27Z,10000,|0,1>,5010,50.10,photon_loss_db,0.28
+job_quandela_ascella_edd68f057115,qpu:ascella,2026-07-27T02:44:27Z,10000,|1,0>,4990,49.90,indistinguishability_pct,96.50

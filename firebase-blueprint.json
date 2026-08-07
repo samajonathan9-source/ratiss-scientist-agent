@@ -1,0 +1,44 @@
+{
+  "collections": {
+    "system_config": {
+      "documents": {
+        "qwen_config": {
+          "fields": {
+            "encoded_key": {
+              "dataType": "string",
+              "description": "Base44 encoded Qwen API key"
+            },
+            "updated_at": {
+              "dataType": "timestamp",
+              "description": "Last update time"
+            }
+          }
+        }
+      }
+    },
+    "chat_history": {
+      "fields": {
+        "userId": {
+          "dataType": "string"
+        },
+        "messages": {
+          "dataType": "array",
+          "description": "List of chat messages"
+        },
+        "timestamp": {
+          "dataType": "timestamp"
+        }
+      }
+    },
+    "user_stats": {
+      "fields": {
+        "count": {
+          "dataType": "number"
+        },
+        "last_updated": {
+          "dataType": "timestamp"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "status": "CEOE_V10_SUCCESS",
+  "timestamp_utc": "2026-07-31T19:54:09Z",
+  "hypothesis_of_jonathan": "DeltaE(n) = E_exact(n) - E_(1+eps)(n) cro\u00eet exponentiellement",
+  "input_parameters": {
+    "n_range": [
+      10,
+      20,
+      40,
+      80,
+      160,
+      320,
+      640
+    ],
+    "epsilon_approx": 0.005,
+    "T_operating_K": 300.0,
+    "R_system_m": 10.0,
+    "repetitions_per_n": 5
+  },
+  "exponential_fit": {
+    "r_squared": 0.9997610417059806,
+    "slope": 0.6969210639157726,
+    "intercept": -19.325142489392064,
+    "is_exponential_growth_confirmed": true
+  },
+  "critical_threshold": {
+    "n_critique": 80,
+    "reason": "Premi\u00e8re violation des bornes RPS par le solveur exact"
+  },
+  "points": [
+    {
+      "n": 10,
+      "E_exact_J": 2.2186666666669606e-05,
+      "E_approx_J": 2.2165000000002936e-05,
+      "DeltaE_J": 2.166666666667013e-08,
+      "ratio_E": 1.0009775171065494,
+      "T_exact_s": 3.413333333333333e-07,
+      "T_approx_s": 3.41e-07,
+      "DeltaT_s": 3.333333333333231e-10,
+      "epsilon_achieved_approx": 0.0038,
+      "rps_exact": "PHYSICALLY_REALIZABLE",
+      "violations_exact": [],
+      "rps_approx": "PHYSICALLY_REALIZABLE",
+      "violations_approx": []
+    },
+    {
+      "n": 20,
+      "E_exact_J": 0.022719146666669677,
+      "E_approx_J": 0.0004333333333333907,
+      "DeltaE_J": 0.022285813333336287,
+      "ratio_E": 52.4288,
+      "T_exact_s": 0.0003495253333333333,
+      "T_approx_s": 6.666666666666667e-06,
+      "DeltaT_s": 0.00034285866666666667,
+      "epsilon_achieved_approx": 0.0038,
+      "rps_exact": "PHYSICALLY_REALIZABLE",
+      "violations_exact": [],
+      "rps_approx": "PHYSICALLY_REALIZABLE",
+      "violations_approx": []
+    },
+    {
+      "n": 40,
+      "E_exact_J": 23822.751935149823,
+      "E_approx_J": 0.0008666666666667814,
+      "DeltaE_J": 23822.751068483158,
+      "ratio_E": 27487790.6944,
+      "T_exact_s": 366.5038759253333,
+      "T_approx_s": 1.3333333333333333e-05,
+      "DeltaT_s": 366.50386259199996,
+      "epsilon_achieved_approx": 0.0038,
+      "rps_exact": "PHYSICALLY_REALIZABLE",
+      "violations_exact": [],
+      "rps_approx": "PHYSICALLY_REALIZABLE",
+      "violations_approx": []
+    },
+    {
+      "n": 80,
+      "E_exact_J": 2.6193392758320436e+16,
+      "E_approx_J": 0.0017333333333335629,
+      "DeltaE_J": 2.6193392758320436e+16,
+      "ratio_E": 1.5111572745182865e+19,
+      "T_exact_s": 402975273204876.4,
+      "T_approx_s": 2.6666666666666667e-05,
+      "DeltaT_s": 402975273204876.4,
+      "epsilon_achieved_approx": 0.0038,
+      "rps_exact": "VIOLATED",
+      "violations_exact": [
+        "ENERGY_BUDGET_EXCEEDED"
+      ],
+      "rps_approx": "PHYSICALLY_REALIZABLE",
+      "violations_approx": []
+    },
+    {
+      "n": 160,
+      "E_exact_J": 3.1665868808840426e+40,
+      "E_approx_J": 0.0034666666666671258,
+      "DeltaE_J": 3.1665868808840426e+40,
+      "ratio_E": 9.134385233318144e+42,
+      "T_exact_s": 4.871672124436343e+38,
+      "T_approx_s": 5.333333333333333e-05,
+      "DeltaT_s": 4.871672124436343e+38,
+      "epsilon_achieved_approx": 0.0038,
+      "rps_exact": "VIOLATED",
+      "violations_exact": [
+        "ENERGY_BUDGET_EXCEEDED",
+        "MARGOLUS_LEVITIN_TIME_VIOLATION"
+      ],
+      "rps_approx": "PHYSICALLY_REALIZABLE",
+      "violations_approx": []
+    },
+    {
+      "n": 320,
+      "E_exact_J": 4.627971911162585e+88,
+      "E_approx_J": 0.0069333333333342516,
+      "DeltaE_J": 4.627971911162585e+88,
+      "ratio_E": 6.674959487252844e+90,
+      "T_exact_s": 7.119956786403033e+86,
+      "T_approx_s": 0.00010666666666666667,
+      "DeltaT_s": 7.119956786403033e+86,
+      "epsilon_achieved_approx": 0.0038,
+      "rps_exact": "VIOLATED",
+      "violations_exact": [
+        "ENERGY_BUDGET_EXCEEDED",
+        "MARGOLUS_LEVITIN_TIME_VIOLATION"
+      ],
+      "rps_approx": "PHYSICALLY_REALIZABLE",
+      "violations_approx": []
+    },
+    {
+      "n": 640,
+      "E_exact_J": 9.8852880048494e+184,
+      "E_approx_J": 0.013866666666668503,
+      "DeltaE_J": 9.8852880048494e+184,
+      "ratio_E": 7.12881346503468e+186,
+      "T_exact_s": 1.5208135392073983e+183,
+      "T_approx_s": 0.00021333333333333333,
+      "DeltaT_s": 1.5208135392073983e+183,
+      "epsilon_achieved_approx": 0.0038,
+      "rps_exact": "VIOLATED",
+      "violations_exact": [
+        "ENERGY_BUDGET_EXCEEDED",
+        "MARGOLUS_LEVITIN_TIME_VIOLATION"
+      ],
+      "rps_approx": "PHYSICALLY_REALIZABLE",
+      "violations_approx": []
+    }
+  ],
+  "conclusion": "CEOE exponentiel confirm\u00e9 (R\u00b2 = 0.99976, pente = 0.69692), optimalit\u00e9 exacte physiquement impossible au-del\u00e0 de n_critique = 80."
+}

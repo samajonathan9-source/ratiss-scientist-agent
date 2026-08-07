@@ -1,0 +1,48 @@
+{
+  "status": "SUCCESS",
+  "num_rows": 2,
+  "proof_path": "proof.bin",
+  "proof_signature_valid": true,
+  "translated_trace": [
+    {
+      "row": 0,
+      "pc": 0,
+      "opcode": "ADD",
+      "ra": 10,
+      "rb": 20,
+      "rc": 30,
+      "sp": 0,
+      "mem_addr": 0,
+      "mem_val": 0,
+      "selector_word": 1
+    },
+    {
+      "row": 1,
+      "pc": 4,
+      "opcode": "JAL",
+      "ra": 0,
+      "rb": 0,
+      "rc": 0,
+      "sp": 1000,
+      "mem_addr": 0,
+      "mem_val": 0,
+      "selector_word": 4
+    }
+  ],
+  "evaluated_constraints": [
+    {
+      "row": 0,
+      "add_constraint_val": 0,
+      "jal_constraint_val": 0,
+      "is_add_valid": true,
+      "is_jal_valid": true
+    },
+    {
+      "row": 1,
+      "add_constraint_val": 0,
+      "jal_constraint_val": 0,
+      "is_add_valid": true,
+      "is_jal_valid": true
+    }
+  ]
+}

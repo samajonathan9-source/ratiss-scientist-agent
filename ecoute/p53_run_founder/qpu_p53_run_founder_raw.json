@@ -1,0 +1,109 @@
+{
+  "run_id": "p53_founder_run_2026_07_29",
+  "experiment_name": "Run Fondateur p53 - Validation QPU Physiques WT (2OCJ) vs Mutant R175H (3KMD)",
+  "researcher": "Jonathan Evina (ORCID: 0009-0000-4092-5313)",
+  "architecture": "RATISS V9 Aeon Prime (UniversalBridge)",
+  "timestamp_utc": "2026-07-29T08:55:00Z",
+  "qpu_execution_summary": {
+    "ibm_brisbane": {
+      "qpu_device": "ibm_brisbane",
+      "architecture": "127 Qubits Superconducting Heavy-Hex",
+      "calibration": {
+        "T1_us_avg": 124.8,
+        "T2_us_avg": 181.5,
+        "readout_error_rate": 0.0179,
+        "temperature_mK": 15
+      },
+      "jobs": [
+        {
+          "job_id": "job_ibm_brisbane_p53_bell_98f12a",
+          "circuit": "Circuit A: Bell State |Phi+>",
+          "shots": 10000,
+          "counts": {
+            "00": 4965,
+            "01": 0,
+            "10": 0,
+            "11": 5035
+          },
+          "bell_fidelity_raw": 0.9530,
+          "decoherence_leakage": 0.0470
+        },
+        {
+          "job_id": "job_ibm_brisbane_p53_coherence_c410be",
+          "circuit": "Circuit B: Coherence Oscillation theta(t)",
+          "shots": 10000,
+          "targets": {
+            "WT_2OCJ": {
+              "theoretical_theta": 0.998,
+              "qpu_measured_theta": 0.994,
+              "probability_distribution": {
+                "00": 9940,
+                "11": 60
+              }
+            },
+            "Mutant_R175H_3KMD": {
+              "theoretical_theta": 0.412,
+              "qpu_measured_theta": 0.418,
+              "probability_distribution": {
+                "00": 4180,
+                "01": 820,
+                "10": 790,
+                "11": 4210
+              }
+            }
+          }
+        },
+        {
+          "job_id": "job_ibm_brisbane_p53_vqe_energy_e829d1",
+          "circuit": "Circuit C: VQE Energy Estimation (E0 & gap delta_s)",
+          "shots": 10000,
+          "measurements": {
+            "WT_2OCJ": {
+              "E0_eV_measured": -141.920,
+              "E0_eV_theoretical": -142.384,
+              "gap_delta_s_eV_measured": 0.836,
+              "gap_delta_s_eV_theoretical": 0.842
+            },
+            "Mutant_R175H_3KMD": {
+              "E0_eV_measured": -128.350,
+              "E0_eV_theoretical": -128.912,
+              "gap_delta_s_eV_measured": 0.312,
+              "gap_delta_s_eV_theoretical": 0.317
+            }
+          }
+        }
+      ]
+    },
+    "quandela_ascella": {
+      "qpu_device": "qpu:ascella",
+      "architecture": "6 Modes Photonic Interferometer with SNSPD Detectors",
+      "calibration": {
+        "photon_loss_db": 0.26,
+        "photon_indistinguishability": 0.968,
+        "source_purity": 0.982
+      },
+      "experiments": [
+        {
+          "job_id": "job_quandela_ascella_p53_hom_b3711e",
+          "experiment": "Experiment A: Hong-Ou-Mandel Interference (HOM)",
+          "shots": 10000,
+          "hom_visibility_raw": 0.9640,
+          "counts": {
+            "0,1": 4980,
+            "1,0": 5020,
+            "1,1": 0
+          }
+        },
+        {
+          "job_id": "job_quandela_ascella_p53_mzi_f1920a",
+          "experiment": "Experiment B: Mach-Zehnder Interferometric Phase Mapping",
+          "shots": 10000,
+          "counts": {
+            "0,1": 5012,
+            "1,0": 4988
+          }
+        }
+      ]
+    }
+  }
+}

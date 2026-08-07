@@ -1,0 +1,31 @@
+{
+  "batch_info": {
+    "batch_id": "pantheon_20x_p53_mutants_20260729",
+    "description": "Batch PANTHÉON 20x — Cartographie Quantique et Topologique Complète des 20 Variants p53",
+    "researcher": "Jonathan Evina (ORCID: 0009-0000-4092-5313)",
+    "orchestrator": "RATISS V9 Aeon Prime UniversalBridge",
+    "timestamp_utc": "2026-07-29T09:40:00Z"
+  },
+  "mutants": [
+    {"id": "MUT_01", "name": "Wild-Type", "pdb": "2OCJ", "class": "Functional WT"},
+    {"id": "MUT_02", "name": "R175H", "pdb": "3KMD", "class": "Conformational Hotspot"},
+    {"id": "MUT_03", "name": "Y220C", "pdb": "1YCS", "class": "Crevice Hotspot (Drug Target)"},
+    {"id": "MUT_04", "name": "G245S", "pdb": "2J1W", "class": "Flexible Loop Hotspot"},
+    {"id": "MUT_05", "name": "R248Q", "pdb": "2J1X", "class": "DNA-Contact Hotspot"},
+    {"id": "MUT_06", "name": "R248W", "pdb": "2J1Y", "class": "DNA-Contact Hotspot"},
+    {"id": "MUT_07", "name": "R273H", "pdb": "2J1Z", "class": "DNA-Contact Hotspot"},
+    {"id": "MUT_08", "name": "R273C", "pdb": "2J20", "class": "DNA-Contact Hotspot"},
+    {"id": "MUT_09", "name": "R282W", "pdb": "2J21", "class": "Structural Anchor Hotspot"},
+    {"id": "MUT_10", "name": "P151S", "pdb": "3KME", "class": "Loop L1 Disruption"},
+    {"id": "MUT_11", "name": "C176F", "pdb": "3KMF", "class": "Zn-Binding Site Collapse"},
+    {"id": "MUT_12", "name": "H179R", "pdb": "3KMG", "class": "Zn-Coordination Failure"},
+    {"id": "MUT_13", "name": "R249S", "pdb": "2J22", "class": "Loop L3 Flexibility"},
+    {"id": "MUT_14", "name": "C242S", "pdb": "2J23", "class": "Zn-Binding Cysteine Loss"},
+    {"id": "MUT_15", "name": "G245D", "pdb": "2J24", "class": "Loop L3 Charge Repulsion"},
+    {"id": "MUT_16", "name": "E258K", "pdb": "2J25", "class": "Salt-Bridge Breakage"},
+    {"id": "MUT_17", "name": "R280K", "pdb": "2J26", "class": "Major-Groove Contact Loss"},
+    {"id": "MUT_18", "name": "V272M", "pdb": "2J27", "class": "Hydrophobic Core Packing Loss"},
+    {"id": "MUT_19", "name": "R213*", "pdb": "TRUNC", "class": "Nonsense Truncation"},
+    {"id": "MUT_20", "name": "P278L", "pdb": "2J28", "class": "Beta-Sheet Anchor Destabilization"}
+  ]
+}

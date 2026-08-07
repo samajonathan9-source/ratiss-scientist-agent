@@ -1,0 +1,6 @@
+{
+  "name": "RATISS CYPHER ODV",
+  "description": "Système Cognitif Souverain pour la découverte scientifique fondamentale. Interface immersive de nouvelle génération.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

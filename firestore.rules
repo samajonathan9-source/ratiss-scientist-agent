@@ -1,0 +1,13 @@
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /system_config/{document=**} {
+      allow read, write: if true;
+    }
+    match /chat_history/{document=**} {
+      allow read, write: if true;
+    }
+    match /user_stats/{document=**} {
+      allow read, write: if true;
+    }
+  }
+}

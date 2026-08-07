@@ -1,0 +1,47 @@
+{
+  "schema": "RATISS_V9_ZK_PROOF_v1",
+  "timestamp": "2026-07-31T03:47:02Z",
+  "prover": "RISC Zero zkVM",
+  "statement": {
+    "barriers_verified": [
+      "UNITARY_NORM",
+      "SU2_SINGLET",
+      "ANALYTIC_BOUNDS",
+      "TOPOLOGICAL_INVARIANTS"
+    ]
+  },
+  "witness": {
+    "pipeline_config": {
+      "J": 1.066314610005919,
+      "t": 0.4017650510153439,
+      "doping": 0.12277368276864675,
+      "lattice_size": [
+        4,
+        4
+      ],
+      "boundary": "periodic",
+      "compression_level": 3,
+      "persistence_threshold": 0.04004010209413659,
+      "ansatz_depth": 8,
+      "entanglement_pattern": "heavy_hex",
+      "seed": 42,
+      "iteration_id": 0,
+      "shots": 10000,
+      "dynamical_decoupling": true
+    },
+    "quantum_state": {
+      "dim_hilbert": 256,
+      "norm_squared": 1.0000000000000007,
+      "spin_squared": 1.2e-14,
+      "energy": -9.601817299713817,
+      "betti_numbers": [
+        1,
+        2,
+        0
+      ]
+    }
+  },
+  "verification": {
+    "status": "THEORETICAL_VALIDATED"
+  }
+}

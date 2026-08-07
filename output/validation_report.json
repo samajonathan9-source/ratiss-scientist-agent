@@ -1,0 +1,45 @@
+{
+  "energy": -9.601817299713817,
+  "betti": [
+    1,
+    2,
+    0
+  ],
+  "spin2": 1.2e-14,
+  "barriers": [
+    {
+      "barrier_name": "UNITARY_NORM",
+      "passed": true,
+      "value": 1.0000000000000007,
+      "threshold": 1e-12,
+      "details": "||\u03a8||\u00b2 = 1.000000000000001e+00 (cible: 1.0 \u00b1 1e-12)",
+      "blake3_hash": "5debde1630440632373382f004d81eb92823380d6b03fd311d02769cdcc1f8ab"
+    },
+    {
+      "barrier_name": "SU2_SINGLET",
+      "passed": true,
+      "value": 1.2e-14,
+      "threshold": 1e-10,
+      "details": "\u27e8S\u00b2\u27e9 = 1.200e-14 (cible: 0.0 \u00b1 1e-10) \u2014 Singulet valid\u00e9",
+      "blake3_hash": "2e94ee57730a988cc89dd96c96f647389b70741fb99a535d09e2ed4acdef7466"
+    },
+    {
+      "barrier_name": "ANALYTIC_BOUNDS",
+      "passed": true,
+      "value": -9.601817299713817,
+      "threshold": 11.325397161325398,
+      "details": "E = -9.601817 \u2208 [-18.232089, -6.906692]",
+      "blake3_hash": "94e146883eb5dac97a8fad4e0cbf7bd743794b621b89b237738c39feacb1dbdf"
+    },
+    {
+      "barrier_name": "TOPOLOGICAL_INVARIANTS",
+      "passed": true,
+      "value": 2.0,
+      "threshold": 0.0,
+      "details": "Betti (H\u2080,H\u2081,H\u2082) = (1, 2, 0) (attendu: (1, 2, 0)) \u2713",
+      "blake3_hash": "55b92b4b3c10a7e679fb97b193128caaa1731c45daa3aab8e3b3d9c4881b3b42"
+    }
+  ],
+  "lieb_wu": -18.232089050825298,
+  "gutzwiller": -6.9066918894999
+}

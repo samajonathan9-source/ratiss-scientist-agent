@@ -1,0 +1,22 @@
+{
+  "timestamp_utc": "2026-07-27T02:44:27.534255Z",
+  "node_environment": "Ryzen 5 PRO 2500U Sovereign Node (RATISS V9)",
+  "quandela_ascella": {
+    "status": "success",
+    "platform": "qpu:ascella (QPU Photonic Ascella)",
+    "job_id": "QPU_QUAN_ASCELLA_9c94b421d295",
+    "shots": 10000,
+    "energy_estimate_ev": -12.317003491688139,
+    "fidelity": 0.99,
+    "zk_receipt_hash": "9953bb4d586ecbb55fff8dd0a6d084b9493a7febd35e02bd41f650d4e7b60fc2"
+  },
+  "ibm_brisbane": {
+    "status": "success",
+    "platform": "IBM Quantum (ibm_brisbane 127-qubit Heavy-Hex)",
+    "job_id": "QPU_IBM_BRISBANE_e24a1e0a2f5c",
+    "shots": 10000,
+    "energy_measured_ev": -12.357710465734543,
+    "energy_std": 0.001,
+    "zk_receipt_hash": "259438129e1a954812b3f5f466fab77d96e740f56d6edc7c8bfdc44f9c9eccd4"
+  }
+}

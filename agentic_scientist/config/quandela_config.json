@@ -1,0 +1,6 @@
+{
+    "token": "TON_JETON_ICI",
+    "simulator": "sim:exqalibur",
+    "qpu": "qpu:ascella",
+    "default_platform": "sim:exqalibur"
+}

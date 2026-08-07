@@ -1,0 +1,6 @@
+{
+    "device": "default.qubit",
+    "wires": 2,
+    "shots": 1000,
+    "default_platform": "default.qubit"
+}

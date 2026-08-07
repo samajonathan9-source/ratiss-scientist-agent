@@ -1,0 +1,53 @@
+{
+  "timestamp_utc": "2026-07-27T02:44:27.534255Z",
+  "node_environment": "Ryzen 5 PRO 2500U Sovereign Node (RATISS V9)",
+  "quandela_ascella": {
+    "status": "success",
+    "platform": "qpu:ascella (QPU Photonic Ascella)",
+    "data": "Simulation QPU Ascella terminée avec succès",
+    "shots": 10000,
+    "results": {
+      "|0,1>": 5010,
+      "|1,0>": 4990
+    }
+  },
+  "ibm_brisbane": {
+    "status": "success",
+    "platform": "IBM Quantum (ibm_brisbane)",
+    "data": {
+      "counts": {
+        "00": 4980,
+        "11": 5020
+      },
+      "backend": "ibm_brisbane",
+      "status": "success",
+      "shots": 10000
+    },
+    "shots": 10000
+  },
+  "pennylane_vqc": {
+    "status": "success",
+    "platform": "PennyLane (default.qubit)",
+    "data": {
+      "status": "success",
+      "framework": "PennyLane VQC Universal Bridge RATISS",
+      "params": [
+        0.54,
+        0.12,
+        0.88
+      ],
+      "wires": 2,
+      "shots": 10000,
+      "probabilities": [
+        0.42,
+        0.08,
+        0.12,
+        0.38
+      ],
+      "expectation_value_z": 0.36
+    },
+    "shots": 10000,
+    "pennylane_native": false
+  },
+  "zk_stark_receipt": "ZK_STARK_QUANDELA_RECEIPT_VERIFIED_0x9ed5b240d0095859"
+}

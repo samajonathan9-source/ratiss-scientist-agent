@@ -1,0 +1,178 @@
+{
+  "benchmark_title": "Certification 10 Formules 3-SAT \u2014 Equivalences Physiques",
+  "total_formulas": 10,
+  "successful_validations": 10,
+  "accuracy_percent": 100.0,
+  "detailed_results": [
+    {
+      "name": "F1 (3v, 2c - SAT)",
+      "num_vars": 3,
+      "num_clauses": 2,
+      "expected_sat": true,
+      "classical_sat": true,
+      "min_unsat_clauses": 0,
+      "ground_energy_ev": -28.697879345541725,
+      "target_energy_ev": -27.18,
+      "betti_numbers": [
+        1,
+        2,
+        0
+      ],
+      "physical_verdict_sat": true,
+      "is_correct": true
+    },
+    {
+      "name": "F2 (4v, 3c - SAT)",
+      "num_vars": 4,
+      "num_clauses": 3,
+      "expected_sat": true,
+      "classical_sat": true,
+      "min_unsat_clauses": 0,
+      "ground_energy_ev": -49.66936644949941,
+      "target_energy_ev": -48.32,
+      "betti_numbers": [
+        1,
+        2,
+        0
+      ],
+      "physical_verdict_sat": true,
+      "is_correct": true
+    },
+    {
+      "name": "F3 (3v, 3c - UNSAT)",
+      "num_vars": 3,
+      "num_clauses": 3,
+      "expected_sat": false,
+      "classical_sat": false,
+      "min_unsat_clauses": 1,
+      "ground_energy_ev": -34.87285992996302,
+      "target_energy_ev": -36.995,
+      "betti_numbers": [
+        1,
+        2,
+        0
+      ],
+      "physical_verdict_sat": false,
+      "is_correct": true
+    },
+    {
+      "name": "F4 (5v, 4c - SAT)",
+      "num_vars": 5,
+      "num_clauses": 4,
+      "expected_sat": true,
+      "classical_sat": true,
+      "min_unsat_clauses": 0,
+      "ground_energy_ev": -76.79763289674115,
+      "target_energy_ev": -75.5,
+      "betti_numbers": [
+        1,
+        2,
+        0
+      ],
+      "physical_verdict_sat": true,
+      "is_correct": true
+    },
+    {
+      "name": "F5 (2v, 4c - UNSAT)",
+      "num_vars": 2,
+      "num_clauses": 4,
+      "expected_sat": false,
+      "classical_sat": false,
+      "min_unsat_clauses": 1,
+      "ground_energy_ev": -34.99522536352491,
+      "target_energy_ev": -36.995,
+      "betti_numbers": [
+        1,
+        2,
+        0
+      ],
+      "physical_verdict_sat": false,
+      "is_correct": true
+    },
+    {
+      "name": "F6 (4v, 4c - SAT)",
+      "num_vars": 4,
+      "num_clauses": 4,
+      "expected_sat": true,
+      "classical_sat": true,
+      "min_unsat_clauses": 0,
+      "ground_energy_ev": -62.499145158262394,
+      "target_energy_ev": -61.155,
+      "betti_numbers": [
+        1,
+        2,
+        0
+      ],
+      "physical_verdict_sat": true,
+      "is_correct": true
+    },
+    {
+      "name": "F7 (3v, 8c - UNSAT)",
+      "num_vars": 3,
+      "num_clauses": 8,
+      "expected_sat": false,
+      "classical_sat": false,
+      "min_unsat_clauses": 1,
+      "ground_energy_ev": -89.39710548131345,
+      "target_energy_ev": -91.355,
+      "betti_numbers": [
+        1,
+        2,
+        0
+      ],
+      "physical_verdict_sat": false,
+      "is_correct": true
+    },
+    {
+      "name": "F8 (6v, 5c - SAT)",
+      "num_vars": 6,
+      "num_clauses": 5,
+      "expected_sat": true,
+      "classical_sat": true,
+      "min_unsat_clauses": 0,
+      "ground_energy_ev": -92.75526788828286,
+      "target_energy_ev": -91.355,
+      "betti_numbers": [
+        1,
+        2,
+        0
+      ],
+      "physical_verdict_sat": true,
+      "is_correct": true
+    },
+    {
+      "name": "F9 (3v, 8c - UNSAT)",
+      "num_vars": 3,
+      "num_clauses": 8,
+      "expected_sat": false,
+      "classical_sat": false,
+      "min_unsat_clauses": 1,
+      "ground_energy_ev": -89.39710548131345,
+      "target_energy_ev": -91.355,
+      "betti_numbers": [
+        1,
+        2,
+        0
+      ],
+      "physical_verdict_sat": false,
+      "is_correct": true
+    },
+    {
+      "name": "F10 (4v, 8c - UNSAT)",
+      "num_vars": 4,
+      "num_clauses": 8,
+      "expected_sat": false,
+      "classical_sat": false,
+      "min_unsat_clauses": 1,
+      "ground_energy_ev": -106.7503567387499,
+      "target_energy_ev": -108.72,
+      "betti_numbers": [
+        2,
+        2,
+        0
+      ],
+      "physical_verdict_sat": false,
+      "is_correct": true
+    }
+  ]
+}
